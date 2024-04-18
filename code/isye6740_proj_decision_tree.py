@@ -7,9 +7,10 @@ Decision Tree Classifier
 import numpy as np
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
+from sklearn import decomposition
 
 # load in data
-data = pd.read_csv('../02_Data/NC_2022-2024_redfin_data.csv', engine='python')
+data = pd.read_csv('../data/dataset.csv', engine='python')
 
 print(data)
 
